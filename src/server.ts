@@ -5,14 +5,11 @@ const generateQRCode = async (
   filePath: string
 ): Promise<void> => {
   try {
-    await qrcode
+    throw await qrcode
       .toFile(filePath, qrCodeContent, {
         scale: 10,
       })
-      .then(() => console.log('Gerado com sucesso'))
-      .catch((err) => {
-        throw err;
-      });
+      .then(() => console.log('Gerado com sucesso'));
   } catch (err) {
     console.error(err);
   }
