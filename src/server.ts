@@ -15,4 +15,4 @@ const generateQRCode = async (
   }
 };
 
-generateQRCode('https://www.google.com', 'qr.png');
+generateQRCode('https://portfolio-gustavo-augusto.netlify.app/', 'qr.png');
