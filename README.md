@@ -1,0 +1,1 @@
+# Rode ```yarn start``` e mude o conteudo do primeiro parametro da funcao para ver seu qrcode
